@@ -1,10 +1,10 @@
 abstract class Figure {
 
-    static Square square = new Square(5);
-    static Rectangle rectangle = new Rectangle(2, 3);
-    static Circle circle = new Circle(3);
-    static Ellipse ellipse = new Ellipse(3, 2);
-    static Triangle triangle = new Triangle(4, 6, 45);
+    static Square square = new Square(3);
+    static Rectangle rectangle = new Rectangle(5, 5);
+    static Circle circle = new Circle(5);
+    static Ellipse ellipse = new Ellipse(10, 6);
+    static Triangle triangle = new Triangle(3, 5, 45);
 
     static Figure[] figures = {
             square,
